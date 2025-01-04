@@ -66,6 +66,23 @@ To run this sample code follow these steps:
 2. **Run the script** - run the `python main.py`
 3. **Command line argument** - Optionally you can add `--input "new input here"` to overide the default user input text.
 
+### Chatbot UI 
+To run the chatbot interface, follow these steps:
+
+1. Start the chatbot interface by running the following command:
+   ```bash
+   python chatbot_interface.py
+   ```
+   You should see output similar to:
+   ```
+   Running on local URL:  http://127.0.0.1:7860
+   
+   To create a public link, set `share=True` in `launch()`.
+    ```
+2. Open the provided local URL in your web browser to start chatting.
+
+3. The UI will look like the following: ![Chatbot UI](images/chatbot_ui.png)
+
 ### Example
 
 **Default prompt**: "What is the current stock price of amazon stock in pounds?
